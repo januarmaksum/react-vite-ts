@@ -3,12 +3,13 @@
   "dockerComposeFile": "../docker-compose.yml",
   "service": "react-app",
   "workspaceFolder": "/app",
-  "postStartCommand": "npm run dev -- --host",
   "customizations": {
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "mhutchie.git-graph"
       ]
     }
   }
